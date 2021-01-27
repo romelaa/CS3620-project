@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO Shows (showID, showTitle)
-VALUES (4, 'The Bachelor')";
+VALUES (5, 'Criminal Minds')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
