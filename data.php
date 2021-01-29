@@ -6,9 +6,13 @@
  * Time: 6:20 PM
  */
 
+session_start();
+
 $servername = "cs3620data.mysql.database.azure.com";
-$username = "romela@cs3620data";
-$password = "Bookmarks77";
+
+$username = (isset($_SESSION["SQLUSER"]) ? $_SESSION["SQLUSER"] : $_ENV['SQLUSER']);
+$password = (isset($_SESSION["SQLPW"]) ? $_SESSION["SQLPW"] : $_ENV['SQLPW']);
+
 $dbname = "cs3620_proj";
 
 // Create connection
