@@ -27,8 +27,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO Shows (showID, showTitle)
-VALUES (5, 'Criminal Minds')";
+$sql = "INSERT INTO books (book, author)
+VALUES ('Michael Vey: The Prisoner of Cell 25','Richard Paul Evans')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
@@ -38,3 +38,4 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+
