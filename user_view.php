@@ -11,3 +11,6 @@
     echo $user->getUsername();
 
 ?>
+<?php
+require_once('./footer.php');
+?>

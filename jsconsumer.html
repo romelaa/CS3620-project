@@ -1,0 +1,34 @@
+<h1 id="tag"></h1>
+
+<script>
+    function hello(userid){
+        fetch('http://localhost/project/users.php?id=' + userid)
+            .then(respone => response.json())
+            .then(
+                function (data){
+                    alert(data);
+                    document.getElementById("firstName").innerHTML = data.firstName;
+                    document.getElementById("lastName").innerHTML = data.lastName;
+                    document.getElementById("username").innerHTML = data.username;
+                }
+            ).catch((error) => {
+                alert("That user does not exist")
+                document.getElementById("firstName").innerHTML = "";
+                document.getElementById("lastName").innerHTML = "";
+                document.getElementById("userName").innerHTML = "";
+        });
+    }
+
+</script>
+
+User ID: <input type="text" id="userid">
+<input type="button" value="Get User" onclick="hello(document.getElementById('userid').value);">
+
+First Name: <input type="text" id="fname">
+<input type="button" value="Get User" onclick="hello(document.getElementById('').velue);">
+
+Last Name: <input type="text" id="lname">
+
+<div id="firstName"></div>
+<div id="lastName"></div>
+<div id="username"></div>
