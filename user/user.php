@@ -47,18 +47,19 @@
 
         function getUser($userID){
             $this->userID = $userID;
-            $userDAO = new userDAO();
-            $userDAO->getUser($this);
+            $method = "user_id";
+            $userDAO = new UserDAO();
+            $userDAO->getUser($this, $user_id, $method);
             return $this;
         }
 
         function createUser(){
-            $userDAO = new userDAO();
+            $userDAO = new UserDAO();
             $userDAO->createUser($this);
         }
 
         function checkLogin($username, $password){
-            $userDAO = new userDAO();
+            $userDAO = new UserDAO();
             $userDAO->checkLogin($username, $password);
         }
 
@@ -67,8 +68,44 @@
             return $vars;
         }
 
+        function getUserByFirstname($data){
+            $this->firstName = $data;
+            $method="first_name";
+            $userDAO = new UserDAO();
+            $userDAO->getUser($this,$data,$method);
+        }
 
-    }
+        function getUserByLastName($data){
+            $this->lastName = $data;
+            $method="last_name";
+            $userDAO=new UserDAO();
+            $userDAO->getUser($this,$data,$method);
+        }
+
+        function getUserByUsername($data){
+            $this->username = $data;
+            $method="username";
+            $userDAO=new UserDAO();
+            $userDAO->getUser($this,$data,$method);
+        }
+
+        function getFirstnameById($userID){
+            $userDAO=new UserDAO();
+            $userDAO->getFirstName($this,$userID);
+
+            return $this->firstName;
+        }
+
+        function deleteUser($username){
+            $userDAO=new UserDAO();
+            $userDAO->deleteUser($username);
+        }
+
+        function setSessionFirstName($loggedinUser){
+            $userDAO=new UserDAO();
+            return $userDAO->setSessionFirstName($loggedinUser);
+
+        }    }
 
 
 ?>
