@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be9b4b80-aa3c-42f4-986a-8591d47a8f81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delete_show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delete_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/show_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_show.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logout.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -58,7 +59,6 @@
         <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/jsconsumer.html" />
         <option value="$PROJECT_DIR$/sessioncheck.php" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/session.php" />
         <option value="$PROJECT_DIR$/setenv.php" />
         <option value="$PROJECT_DIR$/session/session.php" />
@@ -78,6 +78,7 @@
         <option value="$PROJECT_DIR$/delete_user.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/login.html" />
       </list>
     </option>
   </component>
@@ -146,12 +147,12 @@
       <workItem from="1611104480065" duration="2691000" />
       <workItem from="1611710412699" duration="4439000" />
       <workItem from="1612486026640" duration="10691000" />
-      <workItem from="1612920813779" duration="25718000" />
+      <workItem from="1612920813779" duration="25833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43539000" />
+    <option name="totallyTimeSpent" value="43654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="824" y="25" width="856" height="963" extended-state="0" />
@@ -398,17 +399,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
