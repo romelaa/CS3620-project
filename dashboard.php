@@ -5,9 +5,10 @@
 ?>
 
 
+<!doctype html>
+<html lang="en">
 
+    <h3>You have successfully logged in!</h3>
+    <a href="logout.php">Logout</a>
 
-I am protected
-
-
-<a href="logout.php">
+</html>
